@@ -33,4 +33,8 @@ Mediante este comando crearemos la tabla de migraciones en la base de datos.
 ```console
 php artisan migrate:install
 ```
-Si vamos a http://localhost/adminer lo podremos comprobar
+Si vamos a http://localhost/adminer lo podremos comprobar. Para hacer login debemos poner los siguientes datos:  
+Username: alumno  
+Password: alumno  
+Database: dss  
+
