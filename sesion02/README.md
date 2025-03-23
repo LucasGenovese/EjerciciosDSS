@@ -18,7 +18,7 @@ cd app/Ejercicios
 ```
 
 4. Creo un el archivo y dentro ubico las clases.  
-   El codigo de las clases esta dentrod de la carpeta sesion02/miproyecto/app/Ejercicios/Funciones.php  
+   El codigo de las clases esta dentrod de la carpeta `sesion02/miproyecto/app/Ejercicios/Funciones.php `
 > [!NOTE]  
 > El nombre del archivo y el nombre de la clase debe ser el mismo para poder ejecutarlo con Tinker
 ```console
@@ -42,14 +42,14 @@ Funciones::divide(10, 2);
 ```
 
 ### Parte 3: Agregar Logging
-Realizaremos las siguientes modificaciones dentro del archivo Funciones.php  
+Realizaremos las siguientes modificaciones dentro del archivo `Funciones.php`
 
 Con esta linea podemos hacer uso de Logging
 ```php
 use Illuminate\Support\Facades\Log;
 ```
 
-Con esta linea en la funcion divide podemos almacenar la salida en "storage/logs/laravel.log"
+Con esta linea en la funcion divide podemos almacenar la salida en `storage/logs/laravel.log`
 ```php
 Log::info("Resultado de divide($a, $b): " . json_encode($resultado));
 ```
@@ -61,7 +61,7 @@ Log::info("Resultado de divide($a, $b): " . json_encode($resultado));
 php artisan make:test FuncionesTest
 ```
 
-2. Esto nos creara un archivo en la ubicacion "test/Feature/FuncionesTest.php". Para ver el codigo ir al directorio del repositorio.
+2. Esto nos creara un archivo en la ubicacion `test/Feature/FuncionesTest.php`. Para ver el codigo ir al directorio del repositorio.
 
 3. Por ultimo para probar nuestros tests debemos hacer
 ```console
